@@ -47,5 +47,9 @@ Step 1 : As you can see I added another windows server, linked it to the LAN swi
 
 ![Screenshot 2024-05-21 164710](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/4d653f49-2d7e-4621-aa77-e497ff563a9b)
 
-Step 2 : In this server I assigned another static IP address to the new server with the same subnet mask and default gateway. After that I Synced the time using NTP (network time protocol).
+Step 2 : In this server I assigned another static IP address to the new server with the same subnet mask and default gateway. I changed the DNS 1 IP address due to the domain controller acts as the internal DNS server. So if windows2012r2-2 needs information it reaches out to Windows server 2012r2-1, if win2012r2-1 server doesn't have the information asked for, win2012r2-1 reaches out to the router/firewall who then asks 8.8.8.8 or google.com if they have the answer. After that I Synced the time using NTP (network time protocol).
 Installed IIS webserver on windows server and joined the server to the domain. 
+
+---
+
+
