@@ -29,14 +29,23 @@ STAGE 2
 
 ![Screenshot 2024-05-21 155928](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/ebcbc22c-dc51-4c2c-bb6b-8870f79b9feb)
 
-In this screenshot, we had to set a static IP address for our network adapter. The reason a static IP address was needed was because for our network we can't have the IP address changing everytime the adapter turns on and connects to the internet. When information travels to our network and pings our server, traffic will be lost if the IP address is constantly changing.
+In this screenshot, we had to set a static IP address for our network adapter. The reason a static IP address was needed was because for our network we can't have the IP address changing everytime the adapter turns on and connects to the internet. When information travels to our network and pings our server, traffic will be lost if the IP address is constantly changing using DHCP.
 
 ![Screenshot 2024-05-21 155952](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/f2dc514d-325a-4381-9d08-26447c48b375)
 
-Step 1 and 2 : After setting our static IP address, subnet mask, and default gateway; along with our DNS Server. I had to ping the google.com server to ensure that the DNS server was responding to requests. I pinged 8.8.8.8 (google.com) to ensure there was connectivity to the internet from our IP address.
-Step 3 and 4 : of this process consisted of me setting up an active directory service to create user accounts (12 total) 2 per user in my group. An admin and an user account.
-Step 5 : Add a Win2012r2 server to the lab workspace.
-Step 6 : Link the Win2012r2 server to the LAN-SWITCH.
+Step 1 : Add a Win2012r2 server to the lab workspace.
+Step 2 : Link the Win2012r2 server to the LAN-SWITCH
+Step 3 and 4 : After setting our static IP address, subnet mask, and default gateway; along with our DNS Server. I had to ping the google.com server to ensure that the DNS server was responding to requests. I pinged 8.8.8.8 (google.com) to ensure there was connectivity to the internet from our IP address.
+Step 5 and 6 : of this process consisted of me setting up an active directory service to create user accounts (12 total) 2 per user in my group. An admin and an user account.
 
 ---
+STAGE 3
 
+![STAGE 3 drawio](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/6fb1101d-3c8e-4ad9-b3e5-c9939cd3d107)
+
+Step 1 : As you can see I added another windows server, linked it to the LAN switch.
+
+![Screenshot 2024-05-21 164710](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/4d653f49-2d7e-4621-aa77-e497ff563a9b)
+
+Step 2 : In this server I assigned another static IP address to the new server with the same subnet mask and default gateway. After that I Synced the time using NTP (network time protocol).
+Installed IIS webserver on windows server and joined the server to the domain. 
