@@ -1,4 +1,4 @@
-# MSP-LAN-
+# MSP-LAN
 
 ---
 This document details my knowledge of creating a Local Area Network (LAN) for a small Managed Service Provider (MSP).
