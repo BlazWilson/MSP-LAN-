@@ -4,12 +4,14 @@
 This document details my knowledge of creating a Local Area Network (LAN) for a small Managed Service Provider (MSP).
 
 ---
+STAGE 0
 
 ![STAGE 0 drawio (1)](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/d08e00aa-4c10-4a21-905d-df3a76f3f706)
 
 This is the network before installation of other switches or routers.
 
 ---
+STAGE 1
 
 ![Stage 1 drawio](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/21317d16-f1e5-4e3f-8c63-d6a72c955274)
 
@@ -21,6 +23,7 @@ Link the DMZ port on the firewall to the DMZ-SWITCH.
 Link the Win10 workstation to the LAN-SWITCH.
 
 ---
+STAGE 2
 
 ![STAGE 2 drawio](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/81ace8a6-8893-4a63-9eff-ba46dae2f8c5)
 
