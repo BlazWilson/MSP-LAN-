@@ -25,6 +25,7 @@ Link the Win10 workstation to the LAN-SWITCH.
 ![STAGE 2 drawio](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/81ace8a6-8893-4a63-9eff-ba46dae2f8c5)
 
 ![Screenshot 2024-05-21 155928](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/ebcbc22c-dc51-4c2c-bb6b-8870f79b9feb)
+
 In this screenshot, we had to set a static IP address for our network adapter.
 
 ![Screenshot 2024-05-21 155952](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/f2dc514d-325a-4381-9d08-26447c48b375)
