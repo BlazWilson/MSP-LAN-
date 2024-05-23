@@ -51,5 +51,31 @@ Step 2 : In this server I assigned another static IP address to the new server w
 Installed IIS webserver on windows server and joined the server to the domain. 
 
 ---
+STAGE 4
+
+![STAGE 4 drawio](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/eef50f79-9c70-4068-a446-5f94d1466f60)
+
+Step 1 : Add an ubuntu server and link it to the DMZ Switch.
+
+![Screenshot 2024-05-23 105805](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/7b045682-3740-4d3c-8bee-aae7646589b4)
+
+Here we set another static IP address to the server. 
+
+![Screenshot 2024-05-23 110144](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/dc196b56-59a0-41a2-b946-62b4f0a52d03)
+
+Step 2 : Installing dokuwiki on the Ubuntu server using the terminal on ubuntu. 
+
+![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/6a594e80-fb06-407a-8b37-72a2aaccfa32)
+
+![Screenshot 2024-05-23 115901](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/7894ad92-f1f8-42ba-a21b-46c5e7fc06bf)
+
+This is how it looked after installation. Step 3 : I configured a documentation report of the network detailing of the firewall, windows 10 workstation, a domain controller (dc) which was also the internal DNS and provided Active Directory (AD) services, an IIS webserver, and a dmz network.
+
+![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/ae677f20-45a4-4c98-b0ae-c2a3073f49cb)
+
+Step 4 : After configuring the dokuwiki webpage, I configured a Virtual IP (VIP) for the public side of the webserver on the firewall.
+This picture details how traffic flows through the firewall and what ports certain parts of our traffic are configured on. For example, our DMZ (demilitarized zone) network is configured on port 4 and our LAN (Local Area Network) is configured on port 2. 
+
+---
 
 
