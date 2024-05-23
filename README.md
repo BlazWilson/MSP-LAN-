@@ -71,7 +71,7 @@ This is how dokuwiki looked after installation, and before configuring the webpa
 
 ![Screenshot 2024-05-23 115901](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/7894ad92-f1f8-42ba-a21b-46c5e7fc06bf)
 
-Step 3 : I configured a documentation report of the network detailing of the firewall, windows 10 workstation, a domain controller (dc) which was also the internal DNS and provided Active Directory (AD) services, an IIS webserver, and a dmz network.
+Step 3 : Here I configured the dokuwiki webpage to all of the admin accounts created in stage 2. I configured a documentation report of the network detailing of the firewall, windows 10 workstation, a domain controller (dc) which was also the internal DNS and provided Active Directory (AD) services, an IIS webserver, and a dmz network.
 
 ![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/ae677f20-45a4-4c98-b0ae-c2a3073f49cb)
 
@@ -80,4 +80,20 @@ This picture details how traffic flows through the firewall and what ports certa
 
 ---
 
+![STAGE 5 drawio](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/c8c643c9-cfd2-42fd-881e-1ba02bd6f006)
 
+In this stage like the other I created another windows server and linked it to the DMZ switch.
+
+![Screenshot 2024-05-23 122614](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/7a27a82a-5848-4aa0-8546-dc7316e683ba)
+
+Step 2 : Another static IP address was set for the server, along with other static addressing as seen in the photo. After configuring the addressing I synced the computer using the NTP protocol and then joined the server to the domain of our network.
+Step 3 : In this step an FTP service was installed, however my group and I had to implement steps from a microsoft guide on how to do so, but I cannot provide a screenshot for view, due to the excessive length of the steps. 
+
+---
+STAGE 6
+
+In this stage there were no changes to the lab workspace. Instead I created a "Hardening Research Notes" tab for us to detail how we could harden the existing network on the Dokuwiki webpage.
+
+![Screenshot 2024-05-23 123844](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/1a92fe2e-7543-4a57-bde3-4af4f0eaaaa9)
+
+This is an example of the hardnening notes. Top right corner shows the rest of the notes for the servers and workstation implemented in the network.
