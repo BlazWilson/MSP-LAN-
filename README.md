@@ -67,9 +67,11 @@ Step 2 : Installing dokuwiki on the Ubuntu server using the terminal on ubuntu.
 
 ![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/6a594e80-fb06-407a-8b37-72a2aaccfa32)
 
+This is how dokuwiki looked after installation, and before configuring the webpage.
+
 ![Screenshot 2024-05-23 115901](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/7894ad92-f1f8-42ba-a21b-46c5e7fc06bf)
 
-This is how it looked after installation. Step 3 : I configured a documentation report of the network detailing of the firewall, windows 10 workstation, a domain controller (dc) which was also the internal DNS and provided Active Directory (AD) services, an IIS webserver, and a dmz network.
+Step 3 : I configured a documentation report of the network detailing of the firewall, windows 10 workstation, a domain controller (dc) which was also the internal DNS and provided Active Directory (AD) services, an IIS webserver, and a dmz network.
 
 ![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/ae677f20-45a4-4c98-b0ae-c2a3073f49cb)
 
