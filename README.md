@@ -79,6 +79,7 @@ Step 4 : After configuring the dokuwiki webpage, I configured a Virtual IP (VIP)
 This picture details how traffic flows through the firewall and what ports certain parts of our traffic are configured on. For example, our DMZ (demilitarized zone) network is configured on port 4 and our LAN (Local Area Network) is configured on port 2. 
 
 ---
+STAGE 5
 
 ![STAGE 5 drawio](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/c8c643c9-cfd2-42fd-881e-1ba02bd6f006)
 
@@ -103,7 +104,7 @@ STAGE 7 (Bonus Stage)
 
 In this stage we conducted a vulnerabiity scan on the network using a Greenbone server.
 
-[scan page.pdf](https://github.com/BlazWilson/MSP-LAN-/files/15436347/scan.page.pdf)
+![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/05c6ecba-31a8-4083-bba8-6c480ef1e429)
 
 Here are a few of the vulnerabilities on the network. 
 Next will be the documentation of the scans (severity, summary, impact and solution).
