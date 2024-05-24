@@ -59,7 +59,7 @@ Step 1 : Add an ubuntu server and link it to the DMZ Switch.
 
 ![Screenshot 2024-05-23 105805](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/7b045682-3740-4d3c-8bee-aae7646589b4)
 
-Here we set another static IP address to the server. 
+Here we set another static IP address to the server. This time it was because we did not have a DHCP server for the DMZ switch. The Ubuntu server was on a different server and subnet from the DHCP server established in the Local Area Network. Our Ubuntu server is also on a DMZ switch which is a public facing network and you want that IP address to be consistent so we had 2 reasons for creating the network this way.
 
 ![Screenshot 2024-05-23 110144](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/dc196b56-59a0-41a2-b946-62b4f0a52d03)
 
@@ -97,3 +97,32 @@ In this stage there were no changes to the lab workspace. Instead I created a "H
 ![Screenshot 2024-05-23 123844](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/1a92fe2e-7543-4a57-bde3-4af4f0eaaaa9)
 
 This is an example of the hardnening notes. Top right corner shows the rest of the notes for the servers and workstation implemented in the network.
+
+---
+STAGE 7 (Bonus Stage) 
+
+In this stage we conducted a vulnerabiity scan on the network using a Greenbone server.
+
+[scan page.pdf](https://github.com/BlazWilson/MSP-LAN-/files/15436347/scan.page.pdf)
+
+Here are a few of the vulnerabilities on the network. 
+Next will be the documentation of the scans (severity, summary, impact and solution).
+
+![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/6148aea2-2552-4b28-86c4-d286c79d792d)
+
+The documentation report was created based on our vulnerability scan to detail the weaknesses in our network, the severity of the weakness, how it impacts our system, and how we can fix it in the future. Here are just a few of the vulnerability that were shown in the scan. The network was created the way it is in order for this scan to show possible vulnerabilities. 
+
+---
+Summary 
+
+In this detailed diagram we created a 
+A SMB (small/medium business) network, with a LAN, DMZ, and Guest network.
+A Windows domain environment.
+A IIS webserver.
+A Windows FTP server.
+A Win10 workstation.
+A LAMP webserver running on Ubuntu, hosting a wiki.
+A FortiGate firewall, with a VIP for a DMZ webserver.
+
+
+
