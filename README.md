@@ -104,7 +104,8 @@ STAGE 7 (Bonus Stage)
 
 In this stage we conducted a vulnerabiity scan on the network using a Greenbone server.
 
-![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/05c6ecba-31a8-4083-bba8-6c480ef1e429)
+![image](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/77919318-bb18-4de4-b81d-48da730b7c7b)
+
 
 Here are a few of the vulnerabilities on the network. 
 Next will be the documentation of the scans (severity, summary, impact and solution).
