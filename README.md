@@ -83,7 +83,7 @@ STAGE 5
 
 ![STAGE 5 drawio](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/c8c643c9-cfd2-42fd-881e-1ba02bd6f006)
 
-In this stage like the other I created another windows server and linked it to the DMZ switch.
+Step 1 : In this stage like the other I created another windows server and linked it to the DMZ switch.
 
 ![Screenshot 2024-05-23 122614](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/7a27a82a-5848-4aa0-8546-dc7316e683ba)
 
