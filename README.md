@@ -29,7 +29,7 @@ STAGE 2
 
 ![Screenshot 2024-05-21 155928](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/ebcbc22c-dc51-4c2c-bb6b-8870f79b9feb)
 
-In this screenshot, we had to set a static IP address for our network adapter. The reason a static IP address was needed was because for our network we can't have the IP address changing everytime the adapter turns on and connects to the internet. When information travels to our network and pings our server, traffic will be lost if the IP address is constantly changing using DHCP.
+In this screenshot, we had to set a static IP address for our network adapter. The reason a static IP address was needed was because for our network we can't have the IP address changing everytime the server turns on and connects to the internet. When information travels to our network and pings our server, traffic will be lost if the IP address is constantly changing using DHCP.
 
 ![Screenshot 2024-05-21 155952](https://github.com/BlazWilson/MSP-LAN-/assets/170445236/f2dc514d-325a-4381-9d08-26447c48b375)
 
